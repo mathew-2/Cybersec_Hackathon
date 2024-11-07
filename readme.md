@@ -10,9 +10,7 @@ This project aims to develop NLP models for classifying text descriptions of cyb
 - [Modeling](#modeling)
 - [Evaluation Metrics](#evaluation-metrics)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Data Description
 The training dataset consists of text descriptions of cybercrimes, categorized into various categories and subcategories. The key columns are:
@@ -46,3 +44,8 @@ The models were evaluated using:
    ```bash
    git clone https://github.com/yourusername/your-project-name.git
    cd your-project-name
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+
+  
