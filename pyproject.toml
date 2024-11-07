@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "cybersec-hackathon"
+version = "0.1.0"
+description = ""
+authors = ["Kirushikesh <kirushikesh@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "cybersec_hackathon"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.1.1"
+scikit-learn = "^1.5.2"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+matplotlib = "^3.9.2"
+
+
+[tool.poetry.group.lint.dependencies]
+ruff = ">0.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
